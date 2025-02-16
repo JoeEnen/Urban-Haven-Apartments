@@ -122,7 +122,7 @@ h2 {
 
 /* About Section */
 .about {
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
     background: #b9bac9;
     text-align: center;
 }
@@ -130,7 +130,7 @@ h2 {
 .about-container {
     max-width: fit-content;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .about h1 {
@@ -145,20 +145,18 @@ h2 {
     color: var(--color-black-dark);
 }
 
-/* Description Text */
 .about p {
     font-size: 2rem;
     line-height: 2;
     color: var(--color-black);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
-
-/*End of Hero section*/
+/*End of about*/
 
 /*spaces Category*/
 .spaces {
-    margin-top: 1rem;
+    margin-top: 0.1rem;
     background-color: #f5f4f0;
 }
 
@@ -171,11 +169,11 @@ h2 {
 }
 
 .space-card {
-    width: 30rem;
+    width: 45rem;
 }
 
 .space-card-image-wrapper {
-    height: 25rem;
+    height: 40rem;
 }
 
 .space-card-image-wrapper img {
@@ -189,10 +187,13 @@ h2 {
     background-color: var(--color-white-light);
     padding: 2rem 0;
     transition: all 0.5s;
+    text-align: center;
 }
 
-.space-card:hover .book-details {
-    background-color: var(--color-black-light);
+.space-details:hover {
+    background-color: rgb(136, 158, 166);
+    color: black;
+    cursor: pointer;
 }
 
 .space-details-price,
@@ -202,9 +203,10 @@ h2 {
 }
 
 .space-details-price {
-    color: var(--color-secondary);
+    color: red;
     font-weight: bold;
-    transition: all 0.5s;
+    transition: all 0.4s;
+    font-size: 2rem;
 }
 
 .space-card:hover .book-details-price {
@@ -216,17 +218,13 @@ h2 {
     color: var(--color-black-dark);
     text-transform: capitalize;
     margin: 1rem 0;
-    transition: all 0.5s;
+    transition: all 0.4s;
 }
 
-.space-card:hover .book-details-title {
-    color: var(--color-white);
-}
-
-.space-details-author {
-    text-transform: capitalize;
-    font-size: 1.7rem;
-    transition: all 0.5s;
+.space-details-description {
+    text-transform:inherit;
+    font-size: 2rem;
+    transition: all 0.4s;
 }
 
 .space-card:hover .book-details-author {
@@ -254,6 +252,44 @@ h2 {
     background-color: var(--color-white);
 }
 
+/*amenities*/
+.amenities {
+    background-color: hsla(52, 16%, 81%, 0.75);
+}
+
+.amenities-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: 1rem 0rem;
+}
+.amenities-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--color-black-dark);
+    font-size:3.5rem ;
+    text-transform: uppercase;
+}
+.amenities-information {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-top: 7rem;
+}
+
+.amenitiesimage {
+    height: 50rem;
+    width: 65rem;
+}
+
+.amenitiesimage img {
+    width: 120%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/*end of amenities section*/
 
 
 
