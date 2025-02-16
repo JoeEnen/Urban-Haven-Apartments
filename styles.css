@@ -212,10 +212,6 @@ h2 {
     font-size: 2rem;
 }
 
-.space-card:hover .book-details-price {
-    color: var(--color-white);
-}
-
 .space-details-title {
     font-size: 2rem;
     color: var(--color-black-dark);
@@ -291,11 +287,60 @@ h2 {
     display: block;
     object-fit: cover;
 }
-
 /*end of amenities section*/
 
 
+/*Contact Section*/
+.contact-section{
+    padding: 2rem 2rem;
+    background-color: #95adbe;
+}
+.contact-container {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.amenities-title {
+    padding: 2rem;
+}
 
+.names-email {
+    line-height: 6rem;
+}
+.contactform {
+    display: flex;
+    gap: 8rem;
+    padding: 2rem 5rem;
+}
+.form-sub input {
+    width: 40rem;
+    height: 2.5rem;
+}
+.form-group textarea {
+    width: 50rem;
+    height: 25rem;
+}
+
+.form-group {
+    display:inline;
+}
+.names-email button {
+    width: 15rem;
+    height: 3rem;
+}
+.form-sub :placeholder-shown {
+    font-size: 1.5rem;
+}
+.form-group :placeholder-shown {
+    font-size: 2.5rem;
+}
+
+.names-email button:hover {
+    background-color: rgb(14, 229, 21);
+    color: black;
+    cursor: pointer;
+    font-size: 2rem;
+}
+/*End of contact section*/
 
 
 
@@ -318,4 +363,25 @@ h2 {
 
 .cta-button:hover {
     background: #2a5298;
+    justify-content: center;
 }
+.social-icons {
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+margin-top: 2rem;
+}
+
+/*footer*/
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 50rem;
+    background-color: #999999;
+}
+.reach {
+    font-size: 1.8rem;
+}
+/* End of footer section*/
