@@ -367,12 +367,17 @@ margin-top: 2rem;
 }
 
 /*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: #999999;
+}
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 50rem;
-    background-color: #999999;
+    gap: 10rem;
 }
 .reach {
     font-size: 1.8rem;
